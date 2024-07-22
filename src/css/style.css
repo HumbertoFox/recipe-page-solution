@@ -1,12 +1,12 @@
 :root {
---Nutmeg: hsl(14, 45%, 36%);
---Dark-Raspberry: hsl(332, 51%, 32%);
---White: hsl(0, 0%, 100%);
---Rose-White: hsl(330, 100%, 98%);
---Eggshell: hsl(30, 54%, 90%);
---Light-Grey: hsl(30, 18%, 87%);
---Wenge-Brown: hsl(30, 10%, 34%);
---Dark-Charcoal: hsl(24, 5%, 18%);
+  --Nutmeg: hsl(14, 45%, 36%);
+  --Dark-Raspberry: hsl(332, 51%, 32%);
+  --White: hsl(0, 0%, 100%);
+  --Rose-White: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light-Grey: hsl(30, 18%, 87%);
+  --Wenge-Brown: hsl(30, 10%, 34%);
+  --Dark-Charcoal: hsl(24, 5%, 18%);
 }
 
 @font-face {
@@ -33,13 +33,13 @@ section {
   display: flex;
   flex-direction: column;
   background-color: var(--White);
-  padding: 40px;
-  border-radius: 20px;
+  padding: 40px 40px 25px 40px;
+  border-radius: 25px;
 }
 
 img {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 12px;
 }
 
 h1 {
@@ -47,6 +47,115 @@ h1 {
   font-family: 'Young Serif';
   font-weight: bold;
   padding-top: 33px;
+}
+
+.p_primary {
+  font-size: 16px;
+  font-family: 'Outfit';
+  padding-top: 25px;
+  padding-bottom: 33px;
+}
+
+.div_primary {
+  background-color: var(--Rose-White);
+  padding: 26px 28px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Outfit';
+  color: var(--Dark-Raspberry);
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style-position: inside;
+  padding-top: 16px;
+}
+
+ul li {
+  font-family: 'Outfit';
+  padding-left: 9px;
+}
+
+ul li::marker {
+  color: var(--Dark-Raspberry);
+  font-size: 12px;
+}
+
+ul strong,
+ul span {
+  padding-left: 14px;
+}
+
+h3 {
+  font-size: 32px;
+  font-family: 'Young Serif';
+  color: var(--Nutmeg);
+  padding-top: 32px;
+  padding-bottom: 5px;
+}
+
+.div_second,
+.div_third {
+  border-top: 1px solid var(--Light-Grey);
+  margin-top: 33px;
+}
+
+.div_second h3,
+.div_third h3 {
+  padding-top: 28px;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 16px;
+  padding-left: 25px;
+}
+
+ol li {
+  font-family: 'Outfit';
+  padding-left: 15px;
+}
+
+ol li::marker {
+  color: var(--Dark-Raspberry);
+  font-weight: bold;
+}
+
+.div_third p {
+  font-family: 'Outfit';
+  padding-top: 17px;
+  padding-bottom: 14px;
+}
+
+.div_third strong {
+  color: var(--Nutmeg);
+}
+
+.div_third_div {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 32px;
+}
+
+.div_third_div:nth-child(3),
+.div_third_div:nth-child(4),
+.div_third_div:nth-child(5) {
+  border-bottom: 1px solid var(--Light-Grey);
+}
+
+.div_third_div div {
+  width: 100%;
+  font-family: 'Outfit';
+  font-size: 16px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 .attribution {
