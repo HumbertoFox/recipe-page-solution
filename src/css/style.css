@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 :root {
   --Nutmeg: hsl(14, 45%, 36%);
   --Dark-Raspberry: hsl(332, 51%, 32%);
@@ -7,13 +11,6 @@
   --Light-Grey: hsl(30, 18%, 87%);
   --Wenge-Brown: hsl(30, 10%, 34%);
   --Dark-Charcoal: hsl(24, 5%, 18%);
-}
-
-@font-face {
-  font-family: 'Young Serif';
-  src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
-  font-family: 'Outfit';
-  src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
 body {
@@ -30,10 +27,11 @@ main {
 }
 
 section {
+  max-width: 740px;
   display: flex;
   flex-direction: column;
   background-color: var(--White);
-  padding: 40px 40px 25px 40px;
+  padding: 40px 40px 29px 40px;
   border-radius: 25px;
 }
 
@@ -43,42 +41,45 @@ img {
 }
 
 h1 {
-  font-size: 46px;
-  font-family: 'Young Serif';
-  font-weight: bold;
+  font-size: 40px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
   padding-top: 33px;
 }
 
 .p_primary {
   font-size: 16px;
-  font-family: 'Outfit';
-  padding-top: 25px;
+  font-family: "Outfit", sans-serif;
+  padding-top: 15px;
   padding-bottom: 33px;
+  line-height: 24px;
 }
 
 .div_primary {
   background-color: var(--Rose-White);
-  padding: 26px 28px;
+  padding: 24px 0 30px 28px;
   border-radius: 10px;
 }
 
 h2 {
   font-size: 20px;
-  font-family: 'Outfit';
+  font-family: "Outfit", sans-serif;
   color: var(--Dark-Raspberry);
+  letter-spacing: -.18px;
 }
 
 ul {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  list-style-position: inside;
   padding-top: 16px;
+  padding-left: 22px;
 }
 
 ul li {
-  font-family: 'Outfit';
-  padding-left: 9px;
+  font-family: "Outfit", sans-serif;
+  padding-left: 4px;
 }
 
 ul li::marker {
@@ -92,35 +93,32 @@ ul span {
 }
 
 h3 {
-  font-size: 32px;
-  font-family: 'Young Serif';
+  font-size: 28px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
   color: var(--Nutmeg);
-  padding-top: 32px;
-  padding-bottom: 5px;
+  padding-top: 27px;
+  padding-bottom: 4px;
 }
 
-.div_second,
-.div_third {
+.div_second {
   border-top: 1px solid var(--Light-Grey);
   margin-top: 33px;
-}
-
-.div_second h3,
-.div_third h3 {
-  padding-top: 28px;
 }
 
 ol {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  padding-top: 16px;
+  gap: 8px;
+  padding-top: 14px;
   padding-left: 25px;
 }
 
 ol li {
-  font-family: 'Outfit';
+  font-family: "Outfit", sans-serif;
   padding-left: 15px;
+  line-height: 24px;
 }
 
 ol li::marker {
@@ -128,14 +126,20 @@ ol li::marker {
   font-weight: bold;
 }
 
+.div_third {
+  border-top: 1px solid var(--Light-Grey);
+  margin-top: 31px;
+}
+
 .div_third p {
-  font-family: 'Outfit';
-  padding-top: 17px;
+  font-family: "Outfit", sans-serif;
+  padding-top: 16px;
   padding-bottom: 14px;
 }
 
 .div_third strong {
   color: var(--Nutmeg);
+  margin-left: -8px;
 }
 
 .div_third_div {
@@ -152,10 +156,10 @@ ol li::marker {
 
 .div_third_div div {
   width: 100%;
-  font-family: 'Outfit';
+  font-family: "Outfit", sans-serif;
   font-size: 16px;
   padding-top: 14px;
-  padding-bottom: 14px;
+  padding-bottom: 13px;
 }
 
 .attribution {

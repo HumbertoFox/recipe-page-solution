@@ -1,0 +1,45 @@
+@media (max-width: 1275px) {
+    main {
+        padding: 61px 176px;
+    }
+}
+
+@media (max-width: 925px) {
+    main {
+        padding: 30px 88px;
+    }
+}
+
+@media (max-width: 725px) {
+    main {
+        max-width: 375px;
+        background-color: var(--White);
+        padding: 0;
+    }
+
+    section {
+        position: relative;
+        padding: 178px 28px 29px 32px;
+    }
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 0px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 35px;
+    }
+
+    .p_primary {
+        padding-top: 25px;
+        padding-bottom: 33px;
+    }
+
+    .div_primary {
+        padding: 21px 30px 30px 25px;
+    }
+}
