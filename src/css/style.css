@@ -79,17 +79,12 @@ ul {
 
 ul li {
   font-family: "Outfit", sans-serif;
-  padding-left: 4px;
+  padding-left: 18px;
 }
 
 ul li::marker {
   color: var(--Dark-Raspberry);
   font-size: 12px;
-}
-
-ul strong,
-ul span {
-  padding-left: 14px;
 }
 
 h3 {

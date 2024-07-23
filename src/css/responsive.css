@@ -19,7 +19,7 @@
 
     section {
         position: relative;
-        padding: 178px 28px 29px 32px;
+        padding: 178px 32px 29px 32px;
     }
 
     img {
@@ -31,15 +31,34 @@
 
     h1 {
         font-size: 36px;
-        line-height: 35px;
+        line-height: 36px;
     }
 
     .p_primary {
-        padding-top: 25px;
+        padding-top: 24px;
         padding-bottom: 33px;
     }
 
     .div_primary {
-        padding: 21px 30px 30px 25px;
+        padding: 20px 25px 24px 25px;
+    }
+
+    ul {
+        gap: 8px;
+        padding-top: 14px;
+    }
+
+    ul li {
+        line-height: 24px;
+    }
+
+    .div_second {
+        margin-top: 31px;
+    }
+
+    .div_third p {
+        line-height: 24px;
+        padding-top: 14px;
+        padding-bottom: 12px;
     }
 }
