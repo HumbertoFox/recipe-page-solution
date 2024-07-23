@@ -9,7 +9,11 @@ Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codif
 
   <img src="./src/assets/design/desktop-design.jpg" width="400px"/>
 
+  ##
+
   <img src="./src/assets/design/desktop-preview.jpg" width="400px"/>
+
+  ##
   
   <img src="./src/assets/design/mobile-design.jpg" width="400px"/>
 
