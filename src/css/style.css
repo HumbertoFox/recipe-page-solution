@@ -51,6 +51,7 @@ h1 {
 .p_primary {
   font-size: 16px;
   font-family: "Outfit", sans-serif;
+  color: var(--Wenge-Brown);
   padding-top: 15px;
   padding-bottom: 33px;
   line-height: 24px;
@@ -79,6 +80,7 @@ ul {
 
 ul li {
   font-family: "Outfit", sans-serif;
+  color: var(--Wenge-Brown);
   padding-left: 18px;
 }
 
@@ -112,6 +114,7 @@ ol {
 
 ol li {
   font-family: "Outfit", sans-serif;
+  color: var(--Wenge-Brown);
   padding-left: 15px;
   line-height: 24px;
 }
@@ -128,6 +131,7 @@ ol li::marker {
 
 .div_third p {
   font-family: "Outfit", sans-serif;
+  color: var(--Wenge-Brown);
   padding-top: 16px;
   padding-bottom: 14px;
 }
@@ -152,6 +156,7 @@ ol li::marker {
 .div_third_div div {
   width: 100%;
   font-family: "Outfit", sans-serif;
+  color: var(--Wenge-Brown);
   font-size: 16px;
   padding-top: 14px;
   padding-bottom: 13px;
